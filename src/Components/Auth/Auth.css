@@ -1,0 +1,66 @@
+.auth-wrap {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(17, 153, 142), rgb(56, 239, 125)) repeat scroll 0% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-block {
+  height: 80%;
+  width: 60%;
+  background: white;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-side, .right-side {
+  height: 100%;
+}
+
+.left-side {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.logo-text {
+  border-bottom: 1px solid #1abc9c;
+}
+
+.logo-text span {
+  font-size: 32px;
+  color: #32425b;
+}
+
+.watermark {
+  width: 100%;
+  color: #b2bec3;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side {
+  background: #ecf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30%;
+}
